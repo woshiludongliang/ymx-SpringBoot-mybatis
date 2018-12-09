@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ymx.iml" filepath="$PROJECT_DIR$/ymx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymx-dao/ymx-dao.iml" filepath="$PROJECT_DIR$/ymx-dao/ymx-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymx-service/ymx-service.iml" filepath="$PROJECT_DIR$/ymx-service/ymx-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ymx-web/ymx-web.iml" filepath="$PROJECT_DIR$/ymx-web/ymx-web.iml" />
+    </modules>
+  </component>
+</project>

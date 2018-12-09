@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ymx-dao" />
+        <module name="ymx-service" />
+        <module name="ymx-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ymx" target="1.8" />
+      <module name="ymx-dao" target="1.8" />
+      <module name="ymx-service" target="1.8" />
+      <module name="ymx-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ymx" options="" />
+      <module name="ymx-dao" options="" />
+      <module name="ymx-service" options="" />
+      <module name="ymx-web" options="-parameters" />
+    </option>
+  </component>
+</project>
