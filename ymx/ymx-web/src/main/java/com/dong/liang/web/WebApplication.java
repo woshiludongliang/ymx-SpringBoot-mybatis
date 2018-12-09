@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @ComponentScan(basePackages = {"com.dong"})
-@MapperScan(basePackages = "com.dong.liang.db.dao")
+@MapperScan(basePackages = "com.dong.liang.db**")
 @EnableScheduling
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class })
 public class WebApplication {
